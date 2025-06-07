@@ -1,12 +1,12 @@
-// ejercicio 1
+// ejercicio 1 (varias formas de aplicarlo)
 
 const numeros = [1, 2, 3, 4, 5]
 
-const cuadradosDeNumeros = numeros.map(numero => {
-    return numero * numero
-})
+// const cuadradosDeNumeros = numeros.map(numero => {
+//     return numero * numero
+// })
 
-console.log(cuadradosDeNumeros);
+// console.log(cuadradosDeNumeros);
 
 // const cuadradosDeNumeros = numeros.map(numero => {
     
@@ -17,3 +17,10 @@ console.log(cuadradosDeNumeros);
 
 // console.log(cuadradosDeNumeros);
 
+// const cuadradosDeNumeros = numeros.map(num => num * num)
+
+// console.log(cuadradosDeNumeros);
+
+const cuadradosDeNumeros = numeros.map(num => num**2) 
+
+console.log(cuadradosDeNumeros);
