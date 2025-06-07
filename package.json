@@ -1,0 +1,21 @@
+{
+  "name": "homework",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "dev" : "nodemon ./src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmanuelVargas11/homeWork.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmanuelVargas11/homeWork/issues"
+  },
+  "homepage": "https://github.com/EmanuelVargas11/homeWork#readme"
+}
