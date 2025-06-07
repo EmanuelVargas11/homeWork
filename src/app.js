@@ -8,11 +8,11 @@ const numeros = [1, 2, 3, 4, 5]
 
 // console.log(numerosCuadrados);
 
-const numerosCuadrados = numeros.map(numero => {
+const cuadradosDeNumeros = numeros.map(numero => {
     
     let numCuadrado = numero * numero;
 
     return numCuadrado
 })
 
-console.log(numerosCuadrados);
+console.log(cuadradosDeNumeros);
