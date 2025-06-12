@@ -2,6 +2,6 @@
 
 const palabras = ["perro", "gato", "ratón"]
 
-const palabrasMayus = palabras.map(mayus => mayus.toLocaleUpperCase())
+const palabrasMayus = palabras.map(mayus => mayus.toUpperCase())
 
 console.log(palabrasMayus);
