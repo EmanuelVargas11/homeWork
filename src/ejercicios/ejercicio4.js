@@ -6,7 +6,6 @@ const personas = [
     { nombre: "Mateo", edad: 28 }
 ];
 
-
 const nombresExtraidos = personas.map(nombre => nombre.nombre)
 
 console.log(nombresExtraidos);
