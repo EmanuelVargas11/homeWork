@@ -5,13 +5,15 @@
 
 const temperaturasC = [0, 20, 30, 40]
 
-const temperaturasF = temperaturasC.map( temperatura => {
+// const temperaturasF = temperaturasC.map( temperatura => {
     
-    // const cambioTemperatura =  Number(temperatura * 1.8 + 32);
-    const cambioTemperatura = temperatura * 1.8 + 32;
+//     // const cambioTemperatura =  Number(temperatura * 1.8 + 32);
+//     const cambioTemperatura = temperatura * 1.8 + 32;
     
-    return cambioTemperatura
-}
-)
+//     return cambioTemperatura
+// }
+// )
 
-console.log(temperaturasF);
+const temperaturasFahr = temperaturasC.map(tempt => tempt * 1.8 + 32)
+
+console.log(temperaturasFahr);
